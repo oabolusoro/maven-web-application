@@ -28,7 +28,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 	</properties>
-        
+        <!--
 	<repositories>
 	<repository>
 	      <id>nexus</id>
@@ -36,6 +36,7 @@
 	      <url>http://18.118.5.57:8081/repository/paypal-group/</url>
 	    </repository>
 	</repositories>
+        -->
 	
 	<dependencies>
 		
@@ -110,7 +111,7 @@
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://3.144.80.92:8081/repository/paypal-snapshot/</url>
+	      <url>http://18.118.5.57:8081/repository/paypal-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
